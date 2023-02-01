@@ -1,0 +1,13 @@
+class Order_locatores:
+    order__button_xpath = "/html/body/div[6]/div/div[2]/button"
+    name_box_id = "name"
+    country_box_id = "country"
+    city_box_id = "city"
+    card_box_id = "card"
+    month_box_id = "month"
+    year_box_id = "year"
+    pearchus_button_xpath = "//button[contains(text(),'Purchase')]"
+    close_button_xpath = "//body/div[@id='orderModal']/div[1]/div[1]/div[3]/button[1]"
+    successful_xoath = "/html/body/div[10]/div[7]/div/button"
+    title_text = "//h2[contains(text(),'Thank you for your purchase!')]"
+    cart_button = "//a[@id='cartur']"
